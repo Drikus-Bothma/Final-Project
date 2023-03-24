@@ -1,0 +1,294 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 100%;
+    height: 120px;
+}
+
+.logo{
+    padding-left: 50px;
+    padding-right: 20px;
+    float: left;
+    padding-top: 36px;
+}
+
+.nav-btns{
+    float: left;
+    width: 850px;
+    height: 60px;
+    padding-top: 40px;
+
+}
+
+.nav-btns ul{
+    list-style: none;
+}
+
+.nav-btns li{
+    float: left;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 2px;
+    color: black;
+    margin-right: 40px;
+}
+
+.nav-btns li:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+.search-bar{
+    padding-right: 50px;
+    padding-top: 40px;
+    float: right;
+}
+
+.search-btn{
+    cursor: pointer;
+    width: 255px;
+    height: 40px;
+    float: left;
+    border: 2px solid black;
+    border-radius: 40px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.s-icon{
+    float: right;
+    padding-right: 20px;
+}
+
+
+header{
+    width: 100%;
+    height: 780px;
+    background-color: lightgray;
+}
+
+.col-6{
+    width: 40%;
+    height: 500px;
+    margin-top: 10%;
+    margin-left: 5%;
+    padding-top: 100px;
+    padding-left: 50px;
+    font-size: 60px;
+}
+
+.hdr-btns{
+    float: left;
+    width: 800px;
+    height: 70px;
+    padding-top: 70px;
+}
+
+.hdr-btns ul{
+    list-style: none;
+}
+
+.hdr-btn1{
+    width: 217px;
+    height: 62px;
+    border: 4px solid black;
+    border-radius: 62px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 25px;
+    font-weight: bold;
+    float: left;
+    margin-right: 40px;
+}
+
+.hdr-btn2{
+    width: 217px;
+    height: 62px;
+    border: 4px solid black;
+    border-radius: 62px;
+    color: black;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 40px;
+    float: left;
+}
+
+.hdr-btn3{
+    width: 62px;
+    height: 62px;
+    border: 4px solid black;
+    border-radius: 62px;
+    float: left;
+}
+
+.hdr-btn1:hover{
+    cursor: pointer;
+    background-color: lightgray; 
+    color: black;
+}
+
+.hdr-btn2:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.hdr-btn3:hover{
+    background-color: black;
+}
+
+.left{
+    width: 40%;
+    height: 390px;
+    background-color: gray;
+    margin-left: 5%;
+    margin-top: 60px;
+    float: left;
+}
+
+.left2{
+    width: 40%;
+    height: 390px;
+    margin-left: 122px;
+    margin-top: 60px;
+    float: left;
+    padding-top: 50px;
+    padding-left: 0;
+    font-size: 15px;
+}
+
+.right{
+    width: 40%;
+    height: 560px;
+    background-color: rgb(189, 189, 189);
+    background-position: right;
+    margin-top: 60px;
+    padding-top: 20px;
+    font-size: 15px;
+    padding-right: 122px;
+}
+
+.fa-btns{
+    width: 200px;
+    height: 50px;
+    float: right;
+    padding-top: 200px;
+}
+
+.fa-btns ul{
+    list-style: none;
+}
+
+.fa-btn1{
+    width: 42px;
+    height: 42px;
+    border: 4px solid black;
+    text-align: center;
+    border-radius: 50px;
+    padding-top: 5px;
+    font-weight: bolder;
+    float: left;
+    margin-right: 20px;
+}
+
+.fa-btn2{
+    width: 42px;
+    height: 42px;
+    border: 4px solid black;
+    text-align: center;
+    border-radius: 50px;
+    padding-top: 5px;
+    font-weight: bolder;
+    float: left;
+    margin-right: 30px;
+}
+
+
+.col-12{
+    width: 95%;
+    height: 140px;
+    padding-top: 50px;
+    margin-left: 5%;
+    font-size: 30px;
+}
+
+.rrc{
+    margin-bottom: 10px;
+}
+
+.col-3{
+    width: 277px;
+    height: 277px;
+    background-color: lightgray;
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 30px;
+}
+
+
+.about-btns{
+    width: 500px;
+    height: 50px;
+    float: left;
+    padding-top: 80px;
+    padding-left: 0;
+}
+
+.about-btns ul{
+    list-style: none;
+}
+
+.about-btn1{
+    width: 42px;
+    height: 42px;
+    border: 4px solid black;
+    text-align: center;
+    border-radius: 50px;
+    padding-top: 5px;
+    font-weight: bolder;
+    float: left;
+    margin-right: 200px;
+}
+
+.about-btn2{
+    width: 42px;
+    height: 42px;
+    border: 4px solid black;
+    text-align: center;
+    border-radius: 50px;
+    padding-top: 5px;
+    font-weight: bolder;
+    float: left;
+    margin-right: 30px;
+}
+
+
+.col-5{
+    width: 470px;
+    height: 470px;
+    margin-left: 122px;
+    padding-left: 0;
+    background-color: aqua;
+    margin-top: 85px;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 140px;
+}
+
+.col-7{
+    width: 700px;
+    height: 500px;
+    background-color: aqua;
+    margin-left: 70px;
+    margin-top: 85px;
+}
