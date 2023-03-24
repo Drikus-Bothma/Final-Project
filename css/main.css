@@ -41,7 +41,12 @@ nav{
 
 .nav-btns li:hover{
     cursor: pointer;
-    background-color: aquamarine;
+    background-color: black;
+    color: white;
+}
+
+.active{
+    font-weight: bold;
 }
 
 .search-bar{
@@ -77,9 +82,8 @@ header{
     width: 40%;
     height: 500px;
     margin-top: 10%;
-    margin-left: 5%;
+    margin-left: 122px;
     padding-top: 100px;
-    padding-left: 50px;
     font-size: 60px;
 }
 
@@ -107,6 +111,7 @@ header{
     font-weight: bold;
     float: left;
     margin-right: 40px;
+    
 }
 
 .hdr-btn2{
@@ -151,7 +156,7 @@ header{
     width: 40%;
     height: 390px;
     background-color: gray;
-    margin-left: 5%;
+    margin-left: 122px;
     margin-top: 60px;
     float: left;
 }
@@ -215,10 +220,10 @@ header{
 
 
 .col-12{
-    width: 95%;
+    width: 90%;
     height: 140px;
     padding-top: 50px;
-    margin-left: 5%;
+    margin-left: 122px;
     font-size: 30px;
 }
 
@@ -231,7 +236,8 @@ header{
     height: 277px;
     background-color: lightgray;
     float: left;
-    margin-left: 5%;
+    margin-left: 122px;
+    margin-right: -90px;
     margin-bottom: 30px;
 }
 
@@ -272,23 +278,41 @@ header{
     margin-right: 30px;
 }
 
+.Ptext{
+    width: 150px;
+    height: 50px;
+    margin-left: 122px;
+    padding-left: 0;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
 
 .col-5{
     width: 470px;
     height: 470px;
     margin-left: 122px;
     padding-left: 0;
-    background-color: aqua;
-    margin-top: 85px;
+    background-color: lightgray;
+    color: white;
     font-size: 60px;
     text-align: center;
-    padding-top: 140px;
+    padding-top: 150px;
+    float: left;
 }
 
 .col-7{
-    width: 700px;
+    width: 720px;
     height: 500px;
-    background-color: aqua;
     margin-left: 70px;
-    margin-top: 85px;
+    float: left;
+    border: 3px solid black;
+}
+
+.play{
+    width: 1196px;
+    height: 80px;
+    margin-left: 122px;
+    margin-right: 122px;
+    margin-top: 80px;
+    border: 2px solid black;
 }
