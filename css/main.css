@@ -13,11 +13,21 @@ nav{
 }
 
 .logo{
-    padding-left: 50px;
-    padding-right: 20px;
+    width: 170px;
+    margin-left: 60px;
+    margin-right: 20px;
     float: left;
-    padding-top: 36px;
+    margin-top: 36px;
     color: white;
+}
+
+.Limg{
+    width: 30px;
+    height: 30px;
+    float: left;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-right: 10px;
 }
 
 .nav-btns{
@@ -74,8 +84,11 @@ nav{
 }
 
 .s-icon{
+    width: 20px;
+    height: 20px;
     float: right;
-    padding-right: 20px;
+    margin-right: 15px;
+    margin-top: -2px;
 }
 
 
@@ -84,7 +97,7 @@ header{
     height: 780px;
     background-color: lightgray;
     margin-bottom: 500px;
-    background-image: url(../album/Background.avif);
+    background-image: url(../album/Background.jpeg);
     background-position: center;
     background-size: cover;
 }
@@ -174,9 +187,9 @@ header{
 .left{
     width: 40%;
     height: 390px;
-    background-color: gray;
     margin-top: 100px;
     float: left;
+    padding-top: 0;
 }
 
 .left2{
@@ -201,8 +214,10 @@ header{
     font-size: 15px;
     margin-right: 122px;
     margin-left: -70px;
-    padding-left: 30px;
+    padding-left: 100px;
     padding-right: 80px;
+    opacity: 0.9;
+    color: black;
 }
 
 .right2{
@@ -221,7 +236,8 @@ header{
     width: 200px;
     height: 50px;
     float: right;
-    padding-top: 200px;
+    padding-top: 160px;
+    margin-right: -40px;
 }
 
 .fa-btns ul{
@@ -229,9 +245,8 @@ header{
 }
 
 .fa-btn1{
-    width: 42px;
-    height: 42px;
-    border: 4px solid black;
+    width: 45px;
+    height: 45px;
     text-align: center;
     border-radius: 50px;
     padding-top: 5px;
@@ -244,9 +259,8 @@ header{
 }
 
 .fa-btn2{
-    width: 42px;
-    height: 42px;
-    border: 4px solid black;
+    width: 45px;
+    height: 45px;
     text-align: center;
     border-radius: 50px;
     padding-top: 5px;
@@ -255,6 +269,17 @@ header{
     background-image: url(../assets/right_arrow_icon.svg);
     background-position: center;
     background-size: cover;
+}
+
+.fa-btn1:hover{
+    cursor: pointer;
+    background-color: white;
+    
+}
+
+.fa-btn2:hover{
+    cursor: pointer;
+    background-color: white;
 }
 
 
@@ -365,7 +390,6 @@ header{
     height: 277px;
     margin-left: -12px;
     padding-right: 0;
-    background-color: rgba(0,0, 0, 0.5);
     padding-top: 80px;
     opacity: 0;
 }
@@ -373,6 +397,12 @@ header{
 .overlay:hover{
     cursor: pointer;
     opacity: 1;
+}
+
+.content:hover{
+    width: 277px;
+    height: 87px;
+    background-color: rgba(0,0, 0, 0.5);
 }
 
 .icon{
@@ -386,13 +416,14 @@ header{
 }
 
 .content{
-    width: 217px;
+    width: 227px;
     height: 51px;
     color: white;
-    padding-left: 25px;
-    padding-top: 9px;
+    padding-left: 15px;
     margin-top: 50px;
     float: left;
+    font-size: medium;
+    padding-top: 10px;
 }
 
 .sml-icon{
@@ -402,7 +433,9 @@ header{
     background-image: url(../assets/heart_icon_smal.svg);
     background-position: center;
     background-size: cover;
-    float: left;
+    float: right;
+    margin-top: -50px;
+    margin-right: 20px;
 }
 
 .info1{
@@ -466,7 +499,9 @@ header{
     height: 470px;
     margin-left: 122px;
     padding-left: 0;
-    background-color: lightgray;
+    background-image: url(../assets/aboutimg.avif);
+    background-position: center;
+    background-size: cover;
     color: white;
     font-size: 60px;
     text-align: center;
@@ -479,7 +514,6 @@ header{
     height: 500px;
     margin-left: 70px;
     float: left;
-    border: 3px solid white;
 }
 
 .play{
@@ -564,6 +598,131 @@ textarea{
     margin-top: -12px;
 }
 
+.FMlogo{
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image: url(../assets/stream_small_logo_white.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.music{
+    float: left;
+    width: 700px;
+    height: 70px;
+}
+
+.music ul{
+    list-style: none;
+}
+
+.music li{
+    float: left;
+    height: 35px;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 2px;
+    color: white;
+    margin-right: 40px;
+}
+
+.active2{
+    font-weight: bolder;
+    border-bottom: 2px solid aqua;
+}
+
+.titles{
+    float: left;
+    width: 750px;
+    height: 40px;
+    margin-bottom: -30px;
+}
+
+.titles ul{
+    list-style: none;
+}
+
+.titles li{
+    float: left;
+    height: 35px;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
+
+.hash1{
+    margin-right: 15px;
+}
+
+.hash{
+    width: 20px;
+    height: 10px;
+    margin-top: 17px;
+    margin-right: 10px;
+}
+
+.St1{
+    margin-right: 100px;
+}
+
+.St{
+    width: 200px;
+    height: 100px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.ab1{
+    margin-right: 135px;
+}
+
+.ab{
+    width: 220px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.dr{
+    width: 150px;
+    margin-top: 17px;
+    float: left;
+}
+
+.opt-btn{
+    cursor: pointer;
+    width: 20px;
+    height: 70px;
+    border-radius: 50%;
+    float: right;
+}
+
+.PList{
+    float: left;
+    width: 700px;
+    height: 60px;
+    padding-top: 40px;
+}
+
+.PList ul{
+    list-style: none;
+    border-bottom: 2px solid white;
+}
+
+.PList li{
+    float: left;
+    height: 50px;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+}
+
 .Ftext{
     margin-left: 122px;
     color: white;
@@ -578,6 +737,7 @@ textarea{
     height: 50px;
     float: right;
     margin-right: 122px;
+    margin-left: 10px;
     margin-top: 35px;
 }
 
@@ -585,7 +745,7 @@ textarea{
     width: 50px;
     height: 50px;
     float: right;
-    margin-left: 5px;
+    margin-left: 10px;
     margin-top: 35px;
 }
 
@@ -593,9 +753,7 @@ textarea{
     width: 50px;
     height: 50px;
     float: right;
-    margin-left: 5px;
-    margin-right: -15px;
-    padding-top: 5px;
+    margin-left: 10px;
     margin-top: 35px;
 }
 
@@ -603,13 +761,13 @@ textarea{
     width: 50px;
     height: 50px;
     float: right;
-    margin-left: 5px;
+    margin-left: 10px;
     margin-top: 35px;
 }
 
 .AA{
-    width: 60px;
-    height: 60px;
+    width: 90px;
+    height: 90px;
     background-image: url(../album/Adele_-_21.png);
     background-position: center;
     background-size: cover;
@@ -617,11 +775,82 @@ textarea{
     margin-right: 10px;
 }
 .E1{
-    width: 1240px;
+    width: 250px;
     height: 60px;
     float: left;
     margin-left: 122px;
-    font-size: 12px;
+    font-size: 15px;
     color: white;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+}
+
+.control-btns{
+    width: 300px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.ctr-btn1{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(../assets/previous_icon.svg);
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin-top: 30px;
+}
+
+.ctr-btn2{
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(../assets/pause_icon.svg);
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: -20px;
+}
+
+.ctr-btn3{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(../assets/next_icon.svg);
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin-top: -15px;
+}
+
+.time-op{
+    height: 40px;
+    float: right;
+    color: white;
+    margin-top: -80px;
+}
+
+.time-op ul{
+    list-style: none;
+}
+
+.time-op li{
+    width: 100px;
+    height: 40px;
+    float: left;
+}
+
+.opt-btn2{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: -20px;
+    margin-top: -8px;
+    float: left;
 }
